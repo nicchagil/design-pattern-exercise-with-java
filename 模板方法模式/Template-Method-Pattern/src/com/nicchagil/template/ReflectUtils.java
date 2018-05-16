@@ -2,6 +2,9 @@ package com.nicchagil.template;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
+/**
+ * 反射工具类
+ */
 public class ReflectUtils {
 	
 	public static Method getMethod(Class clazz, String name, Class<?>... parameterTypes) {
